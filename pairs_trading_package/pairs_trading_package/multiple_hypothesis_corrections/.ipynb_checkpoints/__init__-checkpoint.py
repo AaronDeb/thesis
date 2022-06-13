@@ -12,8 +12,7 @@ from pairs_trading_package.multiple_hypothesis_corrections.fwer import (
 
 from pairs_trading_package.multiple_hypothesis_corrections.fdr import (
     abh,
-    lsu,
-    benjamini_yekutieli
+    lsu
 )
 
 from pairs_trading_package.multiple_hypothesis_corrections.mhc_panel import (
@@ -30,7 +29,6 @@ __all__ = [
     'bonferroni',
     'abh',
     'lsu',
-    'benjamini_yekutieli',
     'get_scores',
     'correct_fdr',
     'correct_fwer',
